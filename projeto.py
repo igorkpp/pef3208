@@ -298,7 +298,7 @@ def problema_1():
     A_pef, b_pef = ler_matrizes("pecaPlanaS.csv")
 
     # algoritmo implementado
-    sol_pef = eliminacao_gauss_pivotamento_parcial_sem_passos(A_pef,b_pef)
+    sol_pef = eliminacao_gauss_pivotamento_parcial(A_pef,b_pef)
 
     # algoritmo scipy
     import numpy as np
@@ -320,7 +320,7 @@ def problema_2():
     A_pef, b_pef = ler_matrizes("trelicaPlanaIsos.csv")
 
     # algoritmo implementado
-    sol_pef = eliminacao_gauss_pivotamento_parcial_sem_passos(A_pef,b_pef)
+    sol_pef = eliminacao_gauss_pivotamento_parcial(A_pef,b_pef)
 
     # algoritmo scipy
     import numpy as np
